@@ -1,11 +1,12 @@
 # playbook
 Codestyle, conventions, tools, etc for Rubynor
+The idea is to have a file/folder for each 'type' with an index in this readme file. But until we have more this single file is sufficient
 
 ## Git
 - create a branch for your feature
 - branch prefixes [feature, improvement, fix]
 - create PullRequest
-- Recieve honor and critic, and possibly do some fixes
+- Receive honor and critic, and possibly do some fixes
 - Get an approval in form of 'thumbsup' from reviewer
 - Merge and deploy to staging/production
 
