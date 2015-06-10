@@ -1,5 +1,6 @@
 # playbook
-Codestyle, conventions, tools, etc for Rubynor
+Codestyle, conventions, tools, etc for Rubynor.
+
 The idea is to have a file/folder for each 'type' with an index in this readme file. But until we have more this single file is sufficient
 
 ## Git
