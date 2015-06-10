@@ -21,7 +21,6 @@ For now follow https://github.com/thoughtbot/guides/tree/master/style/ruby
 ## Tools
 
 ### Trello
-Lanes
 * Backlog (future tasks; can be skipped)
 * Todo (planned tasks)
 * Todo [weeek] (tasks planned to be finished this week
@@ -31,5 +30,5 @@ Lanes
 * Prod week (tasks that are in production)
 * [DEMO BOARD](https://trello.com/b/cx6OWMlD/structure)
 
-
+![Board](https://raw.githubusercontent.com/rubynor/playbook/master/images/trello_board.png)
 
