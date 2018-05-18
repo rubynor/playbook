@@ -24,7 +24,7 @@ Codestyle, konvensjoner etc for Rubynor.
 - Dekker pull requesten en og bare en endring? Hvis ikke, vurder å splitte opp PR-en i flere.
 - Har du innført nye n+1 queries?
 - Har du addet alle filene?
-- Har du fjernet autogenererte filer (spesielt fra `rails generate`)
+- Har du fjernet autogenererte filer (spesielt fra `rails generate`)?
 - Kjører testene?
 - Har du skrevet nye tester for endringene du har gjort?
 - Har du testet at det virker lokalt på din egen maskin?
