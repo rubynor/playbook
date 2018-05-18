@@ -11,6 +11,7 @@ Codestyle, konvensjoner etc for Rubynor.
 - Gi beskjed når du er klar til ny review
 - Fortsett med denne sirkelen til en reviewer gir deg tommel opp for merge
 - Merge inn i master - gjør gjerne en rebase for å merge sammen småfikser
+- Slett branchen når den er merget
 
 ## Sjekkliste før man lager en pull request
 - Er det utkommentert kode her? I så fall - fjern.
