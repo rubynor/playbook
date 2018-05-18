@@ -16,13 +16,14 @@ Codestyle, konvensjoner etc for Rubynor.
 - Er det utkommentert kode her? I så fall - fjern.
 - Er det print statements og annet debug her? I så fall - fjern.
 - Dersom det er migrations:
-  - Har de fornuftige navn?
+  - Har de fornuftige navn?  
   - Vil de fungere uten å måtte resette databasen?
-  - Har du oppdatert seed data?
-  - Har du migrert eksisterende data? (Eksempel: Om du legger til en constraint om at alle `Meetings` må ha en `status`, må du i migrasjonen sørge for at alle de nåværende møtene også får en `status`)
-  - Har nye felter fornuftige default-verdier? Spesielt: Har boolean-felter en default-verdi?
+  - Har du oppdatert seed data? 
+  - Har du migrert eksisterende data? (Eksempel: Om du legger til en constraint om at alle `Meetings` må ha en `status`, må du i migrasjonen sørge for at alle de nåværende møtene også får en `status`)
+  - Har nye felter fornuftige default-verdier? Spesielt: Har boolean-felter en default-verdi?
 - Dekker pull requesten en og bare en endring? Hvis ikke, vurder å splitte opp PR-en i flere.
 - Har du innført nye n+1 queries?
+- Er det indexer på alle databasefelter du slår opp data på?
 - Har du addet alle filene?
 - Har du fjernet autogenererte filer (spesielt fra `rails generate`)?
 - Kjører testene?
