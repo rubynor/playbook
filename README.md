@@ -34,6 +34,11 @@ Codestyle, konvensjoner etc for Rubynor.
 - Er branchen rebaset mot siste master?
 - (hvis vi har code climate: ) Har du fikset ting som CC klager på?
 
+## Sjekkliste når man har deployet til produksjon
+- Har du kjørt `rails db:migrate` om det er databaseendringer?
+- Har du sjekket at det virker? Om det er to eller flere "brukertyper", sjekk med alle
+- Har du lagt til noe som krever setup på Heroku? Eksempelvis første deploy som tar i bruk epost - da må sendgrid eller lignende settes opp
+
 ## Styleguide
 
 ### Rails
