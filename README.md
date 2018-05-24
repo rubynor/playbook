@@ -14,7 +14,7 @@ Codestyle, konvensjoner etc for Rubynor.
 - Slett branchen når den er merget
 
 ## Sjekkliste før man lager en pull request
-- *Les ic´óver diffen på Github før du lager PR-en og se om du finner noen feil*
+- *Les over diffen på Github før du lager PR-en og se om du finner noen feil*
 - Er det utkommentert kode her? I så fall - fjern.
 - Er det print statements og annet debug her? I så fall - fjern.
 - Dersom det er migrations:
