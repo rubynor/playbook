@@ -14,6 +14,7 @@ Codestyle, konvensjoner etc for Rubynor.
 - Slett branchen når den er merget
 
 ## Sjekkliste før man lager en pull request
+- *Les ic´óver diffen på Github før du lager PR-en og se om du finner noen feil*
 - Er det utkommentert kode her? I så fall - fjern.
 - Er det print statements og annet debug her? I så fall - fjern.
 - Dersom det er migrations:
@@ -32,6 +33,7 @@ Codestyle, konvensjoner etc for Rubynor.
 - Har du testet at det virker lokalt på din egen maskin?
 - Har du tenkt på alle edge cases?
 - Er branchen rebaset mot siste master?
+- Har du ved et uhell innført noen ting ved en merge/rebase som ikke skulle vært der?
 - (hvis vi har code climate: ) Har du fikset ting som CC klager på?
 
 ## Sjekkliste når man har deployet til produksjon
