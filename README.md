@@ -28,13 +28,14 @@ Codestyle, konvensjoner etc for Rubynor.
 - Er det indexer på alle databasefelter du slår opp data på?
 - Har du addet alle filene?
 - Har du fjernet autogenererte filer (spesielt fra `rails generate`)?
+- Har du brukt variabler, metodeparametre, gems, imports etc tidligere som du har glemt å fjerne?
 - Kjører testene?
 - Har du skrevet nye tester for endringene du har gjort?
 - Har du testet at det virker lokalt på din egen maskin?
 - Har du tenkt på alle edge cases?
 - Er branchen rebaset mot siste master?
 - Har du ved et uhell innført noen ting ved en merge/rebase som ikke skulle vært der?
-- (hvis vi har code climate: ) Har du fikset ting som CC klager på?
+- Har du fikset ting som Code Climate klager på?
 
 ## Sjekkliste når man har deployet til produksjon
 - Har du kjørt `rails db:migrate` om det er databaseendringer?
