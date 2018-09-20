@@ -35,7 +35,11 @@ Codestyle, konvensjoner etc for Rubynor.
 - Har du tenkt på alle edge cases?
 - Er branchen rebaset mot siste master?
 - Har du ved et uhell innført noen ting ved en merge/rebase som ikke skulle vært der?
-- Har du fikset ting som Code Climate klager på?
+
+## Sjekkliste etter at man har laget en pull request
+- Klager Semaphore på noe?
+- Klager Code Climate på noe?
+- Virker review-appen?
 
 ## Sjekkliste når man har deployet til produksjon
 - Har du kjørt `rails db:migrate` om det er databaseendringer?
