@@ -3,9 +3,8 @@ Codestyle, konvensjoner etc for Rubynor.
 
 ## Versjonskontroll
 - Bruk feature branches. Branchnavnet skal være i kebab-case (`my-super-branch`, ikke `my_super_branch`). Navnet skal beskrive klart hva endringen består i.
-- Commits skal fortrinnsvis gjøre en ting.
+- Commits skal fortrinnsvis gjøre én ting.
 - Bruk meningsfulle commit messages. Husk at commit messages er en hjelp til folk som leser koden og forsøker å forstå hvorfor ting er gjort. Gode eksempler: `Bugfix: Representanten hopper til nederst i listen når de oppdateres`, `Tabeller for møter`, `Gjør login-knappen mer synlig i menyen`. Dårlige eksempler: `Fikset en bug`, `WIP: prøver å fikse representanter`
-- Legg PR-en i "review"-kolonnen på Trello
 
 
 ## Sjekkliste før man lager en pull request
@@ -37,6 +36,7 @@ Codestyle, konvensjoner etc for Rubynor.
 - Virker review-appen?
 
 ## Når PRen er klar til review
+- Legg kortet i "review"-kolonnen i Trello
 - Gi beskjed på Slack om at det er en PR klar til review
 - Få feedback fra minst en reviewer. Rett feil, spør om det er noe du lurer på.
 - Gi beskjed når du er klar til ny review
@@ -44,8 +44,9 @@ Codestyle, konvensjoner etc for Rubynor.
 - Merge inn i master - gjør gjerne en rebase for å merge sammen småfikser
 - Slett branchen når den er merget
 - Sjekk at staging fungerer, siden master automatisk deployerer til staging
+- Flytt kortet til 'done'-kolonnen i Trello
 
-## Sjekkliste når man har deployet til produksjon
+## Sjekkliste hvis man har promotet staging til produksjon
 - Har du kjørt `rails db:migrate` om det er databaseendringer?
 - Har du sjekket at det virker? Om det er to eller flere "brukertyper", sjekk med alle
 - Har du lagt til noe som krever setup på Heroku? Eksempelvis første deploy som tar i bruk epost - da må sendgrid eller lignende settes opp
@@ -69,6 +70,6 @@ Følg https://github.com/thoughtbot/guides/tree/master/style/ruby
 * Done
 
 #### Konvensjoner
-* Husk å assigne deg selv til en oppgave når du setter i gang med den
-* Før du tar en ny oppgave - vær HELT sikker på at du ikke kommer videre med den/de du jobber på allerede.
+* Husk å assigne deg selv til en oppgave når du setter i gang med den (og ikke lenge før)
+* Før du tar en ny oppgave - vær HELT sikker på at du ikke kommer videre med den/de du jobber på allerede, og at det du holder på med er helt ferdig, i følge denne guiden
 * Når det er du som har programmert oppgaven, er det ditt ansvar å sørge for at den havner hele veien i produksjon - det inkluderer å mase om folk ikke gir deg code review og faktisk pushe ting til staging- og produksjonsmiljø (og teste at det virker når det ER i disse miljøene)
