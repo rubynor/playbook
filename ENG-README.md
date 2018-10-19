@@ -34,24 +34,26 @@ Codestyle, conventions, etc. for Rubynor
 
 ## Checklist after making a pull request
 - Does Semaphore complain about anything?
-- Complaint Code Climate on something?
-- Do review apps work?
+- Does Code Climate complain about something?
+- Does the review app work?
 
 ## When the PR is ready for review
 - Put the card in the "review" column in Trello
-- Notify Slack that it is a PR ready for review
-- Get feedback from at least one reviewer. Just wrong, ask if there's anything you're wondering about.
-- Notify when you are ready for a new review
-- Continue with this circle until a reviewer gives you thumbs up for merge
-- Merge into the master - please do a rebase to merge together the fists
+- Notify Slack that there is a PR ready for review
+- Get feedback from at least one reviewer. Correct mistakes. Ask if there's anything you're wondering about.
+- Notify the other people in the project in Slack when you are ready for a new review
+- Continue with this cycle until a reviewer approves your PR for merging
+- Rebase to merge master with your branch
+- Check that things still work; locally ond in the review app
+- Merge the result of that into master
+- Check that it now works on staging, since master automatically deploys there
 - Delete the branch when it is merged
-- Check that staging works since the master automatically deployes to staging
 - Move the card to the 'done'-column in Trello
 
 ## Checklist if you have promoted staging for production
 - Have you run rails db: migrate if there are database changes?
-- Have you checked that it works? If there are two or more "user types", check with everyone
-- Have you added anything that requires setup on Heroku? For example, first deploy who uses email - then send grid or similar must be set up
+- Have you checked that it works? If there are two or more "user types", check as everyone
+- Have you added anything that requires setup on Heroku? For example, for the first deploy that uses email, SendGrid or similar must be set up
 
 ## Style Guide
 
@@ -63,12 +65,13 @@ Follow https://github.com/thoughtbot/guides/tree/master/style/ruby
 
 ## Tools
 
-### Trello
-* Backlog (scheduled tasks)
+### Trello columns
+* Backlog/TODO (scheduled tasks)
 * Doing (What you are working at right now)
 * Review (tasks in PR review)
-* In production since last customer meeting
 * Done
+* In production since last customer meeting
+* In production
 
 #### Conventions
 * Remember to assign yourself to a task when you get started (and not long before)
