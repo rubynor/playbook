@@ -6,12 +6,7 @@ Codestyle, konvensjoner etc for Rubynor.
 - Commits skal fortrinnsvis gjøre en ting.
 - Bruk meningsfulle commit messages. Husk at commit messages er en hjelp til folk som leser koden og forsøker å forstå hvorfor ting er gjort. Gode eksempler: `Bugfix: Representanten hopper til nederst i listen når de oppdateres`, `Tabeller for møter`, `Gjør login-knappen mer synlig i menyen`. Dårlige eksempler: `Fikset en bug`, `WIP: prøver å fikse representanter`
 - Legg PR-en i "review"-kolonnen på Trello
-- Gi beskjed på Slack om at det er en PR klar til review
-- Få feedback fra minst en reviewer. Rett feil, spør om det er noe du lurer på.
-- Gi beskjed når du er klar til ny review
-- Fortsett med denne sirkelen til en reviewer gir deg tommel opp for merge
-- Merge inn i master - gjør gjerne en rebase for å merge sammen småfikser
-- Slett branchen når den er merget
+
 
 ## Sjekkliste før man lager en pull request
 - *Les over diffen på Github før du lager PR-en og se om du finner noen feil*
@@ -40,6 +35,15 @@ Codestyle, konvensjoner etc for Rubynor.
 - Klager Semaphore på noe?
 - Klager Code Climate på noe?
 - Virker review-appen?
+
+## Når PRen er klar til review
+- Gi beskjed på Slack om at det er en PR klar til review
+- Få feedback fra minst en reviewer. Rett feil, spør om det er noe du lurer på.
+- Gi beskjed når du er klar til ny review
+- Fortsett med denne sirkelen til en reviewer gir deg tommel opp for merge
+- Merge inn i master - gjør gjerne en rebase for å merge sammen småfikser
+- Slett branchen når den er merget
+- Sjekk at staging fungerer, siden master automatisk deployerer til staging
 
 ## Sjekkliste når man har deployet til produksjon
 - Har du kjørt `rails db:migrate` om det er databaseendringer?
