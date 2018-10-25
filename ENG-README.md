@@ -44,7 +44,7 @@ Codestyle, conventions, etc. for Rubynor
 - Notify the other people in the project in Slack when you are ready for a new review
 - Continue with this cycle until a reviewer approves your PR for merging
 - Rebase to merge master with your branch
-- Check that things still work; locally ond in the review app
+- Check that things still work; locally and in the review app
 - Merge the result of that into master
 - Check that it now works on staging, since master automatically deploys there
 - Delete the branch when it is merged
