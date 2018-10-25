@@ -50,7 +50,7 @@ Codestyle, conventions, etc. for Rubynor
 - Delete the branch when it is merged
 - Move the card to the 'done'-column in Trello
 
-## Checklist if you have promoted staging for production
+## Checklist if you have promoted staging to production
 - Have you run rails db: migrate if there are database changes?
 - Have you checked that it works? If there are two or more "user types", check as everyone
 - Have you added anything that requires setup on Heroku? For example, for the first deploy that uses email, SendGrid or similar must be set up
