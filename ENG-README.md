@@ -1,4 +1,4 @@
-Translated by google. 
+Translated by google and corrected by TMH. 
 
 # Playbook
 Codestyle, conventions, etc. for Rubynor
