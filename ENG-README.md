@@ -46,6 +46,7 @@ Codestyle, conventions, etc. for Rubynor
 - Merge the result of that into master
 - Check that it now works on staging, since master automatically deploys there
 - Delete the branch when it is merged
+- Promote staging to production
 - Move the card to the 'done'-column in Trello
 
 ## Checklist if you have promoted staging to production
